@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.bg-image-home{
+    background-image: url("images/desertbackground.jpg");
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#home-info {
+    border: 6px transparent;
+    position: relative;
+    color: white;
+    height: 245px;
+    width: 800px;
+    top: 250px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px;
+    vertical-align: middle;
+    line-height: 39px
+
+}
+p{
+    font-family: 'Bitter', serif;
+}
+
+nav{
+    position: relative;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.navbar a {
+    background: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: white;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+    
+    
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.navtable{
+    margin: 0px auto;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    z-index: 10;
+    padding-bottom: 10px;
+    font-family: 'Bitter', serif;
+    color: white;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-imdb {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+
+  .fa-twitter {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+
+  .fa-twitch {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+
+.move{
+    position: absolute; visibility: visible; left: 655px; top: 220px; height: 100px; width: 150px; z-index: 200
+}
+.gal1{
+
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    text-align: center;
+    height: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+div.gal1{
+    size: 800px;
+}
+
+table.art{
+    font-family: 'Bitter', serif;
+    position: relative;
+    top: 150px;
+    width: 100%;
+    color: black;
+
+}
+
+tr.head{
+
+    font-size: 40px;
+    text-align: center;
+    bottom: 40px;
+    height: 90px;
+    width: 100%;
+
+}
+
+tr.section{
+    border-bottom: solid black 2px;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+
+td.section{
+    vertical-align: bottom;
+}
+
+td.links{
+    text-decoration: none;
+}
+
+body.bg-image-art{
+    background-image: url("images/swirl_pattern.png");
+    background-size: auto, cover;
+}
+
+body.bg-image-contact{
+    background-image: url("images/subtle_white_mini_waves.png");
+    background-position: 50% 50%;
+    background-repeat: repeat;
+}
+
+#contact-info {
+    border: 6px transparent;
+    position: relative;
+    color: black;
+    height: 100px;
+    width: 800px;
+    top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px;
+    vertical-align: middle;
+    line-height: 39px;
+
+}
+
+footer.copy{
+    color: black;
+}
